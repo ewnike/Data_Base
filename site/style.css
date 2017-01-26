@@ -1,12 +1,72 @@
 #wrapper{
-  height: 900px;
+  height: 1000px;
   width: 950px;
   background-color: #505050;
 }
 
 #header{
-  height: 100px;
+  height:70px;
   width: 950px ;
   background-color: silver;
+}
 
+#header p{
+  font-size: 17px;
+  font-weight: bold;
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 450px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  height: 27px;
+  width: 300px;
+}
+
+#nametag {
+  height: 70px;
+  width: 120px;
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 0;
+}
+
+#navbar{
+  text-align: center;
+  width: 950px;
+  background-color: white;
+  display:inline-block;
+
+}
+
+#navbar ul{
+  border: 1px solid black;
+  margin: 0px;
+}
+
+#navbar ul li{
+  display:inline;
+  color: blue;
+  background-color: white;
+  text-decoration: underline;
+  border-right: 1px solid black;
+  font-size: 12px;
+
+}
+
+#navbar ul li a{
+  color: blue;
+  padding-top: 2.5%;
+  padding-right: 1%;
+  padding-bottom: 2.5%;
+  padding-left: 5.5%;
+}
+#content-main {
+  height: 400px;
+  width: 950px;
+}
+
+#database{
+  height 380px;
+  width: 440px;
+  margin: 15px;
 }
