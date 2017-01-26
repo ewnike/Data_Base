@@ -1,0 +1,12 @@
+#wrapper{
+  height: 900px;
+  width: 950px;
+  background-color: #505050;
+}
+
+#header{
+  height: 100px;
+  width: 950px ;
+  background-color: silver;
+
+}
