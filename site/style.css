@@ -31,37 +31,34 @@
 }
 
 #navbar{
-  text-align: center;
+
+  height: 40px;
   width: 950px;
   background-color: white;
-  display:inline-block;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 
 }
 
 #navbar ul{
-  border: 1px solid black;
-  margin: 0px;
+  list-style-type: none;
+  margin: 9px 0px 9px 0px;
 }
 
 #navbar ul li{
   display:inline;
   color: blue;
-  background-color: white;
-  text-decoration: underline;
-  border-right: 1px solid black;
-  font-size: 12px;
-
+  /*text-decoration: underline;*/
+  border-right-style: solid;
+  border-color: black;
+  /*font-size: 12px;*/
+  padding:10px 25px 12px 30px;
 }
 
-#navbar ul li a{
-  color: blue;
-  padding-top: 2.5%;
-  padding-right: 1%;
-  padding-bottom: 2.5%;
-  padding-left: 5.5%;
-}
+
 #content-main {
-  height: 400px;
+  height: 350px;
   width: 950px;
 }
 
